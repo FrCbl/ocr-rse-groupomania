@@ -1,0 +1,7 @@
+# le répertoire images est nécessaire à l'application mais il est vide à l'initialisation du projet
+# et donc Github ne tracke pas les repertoires vides
+# un fichier .gitignore peut être crée dans le sous-repertoire images/
+#
+# ignorer l'ensemble du dossier images sauf mon fichier .gitignore présent dans ce sous-répertoire
+*
+!.gitignore
